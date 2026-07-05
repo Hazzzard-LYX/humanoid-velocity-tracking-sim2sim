@@ -8,6 +8,27 @@
 
 本项目不是完整训练框架，需要配合 Unitree_RL_LAB 使用。训练、任务环境、策略导出等流程仍在 Unitree_RL_LAB 中完成；本仓库只保留我们完成的 Sim2Sim 迁移脚本、权重、说明文档和验证材料。
 
+## 🎬 Demo Video & Policy Files
+
+The demo video and trained policy files are provided through GitHub Releases instead of being stored in the main repository.
+
+➡️ [Download demo video and policy files](../../releases/tag/V1.0)
+
+### Release Contents
+
+- `sim2sim_vx05_30s.mp4`  
+  A 30-second sim-to-sim demo video showing the Unitree H1 humanoid robot performing velocity tracking in simulation.
+
+- `h1-velocity-tracking-policy.zip`  
+  The trained policy package used for deployment and sim-to-sim evaluation.
+
+The policy package includes:
+
+```text
+deploy.yaml
+weight-velocity-track.onnx
+weight-velocity-track.pt
+
 ## License
 
 This project follows Apache License 2.0, consistent with Unitree_RL_LAB. Please also follow the licenses of Unitree_RL_LAB, unitree_mujoco, MuJoCo, and related dependencies.

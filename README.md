@@ -1,7 +1,7 @@
 # Unitree H1 Isaac Lab to MuJoCo Sim2Sim
 
 <p align="center">
-  <img src="media/banner.png" alt="H1 Velocity Tracking Sim-to-Sim" width="100%">
+  <img src="docs/banner.png" alt="H1 Velocity Tracking Sim-to-Sim" width="100%">
 </p>
 
 本仓库整理了基于 [Unitree_RL_LAB](https://github.com/unitreerobotics/unitree_rl_lab) 完成的 H1 机器人 Sim2Sim 迁移部分。核心工作是将 Isaac Lab / RSL-RL 训练得到的 H1 速度追踪策略导出为 ONNX，并在 MuJoCo 中复现策略运行，定位并解决模型坐标轴不一致导致的迁移失败问题。

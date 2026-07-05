@@ -1,0 +1,5 @@
+mujoco>=3.0
+numpy
+onnxruntime
+imageio
+imageio-ffmpeg
